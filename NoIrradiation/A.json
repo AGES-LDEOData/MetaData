@@ -2,7 +2,7 @@
     {
         "analyses": [],
         "decay_constants": {},
-        "identifier": "a-01", 
+        "identifier": "a-01",
         "j": 0,
         "j_err": 0,
         "position": 1
@@ -14,5 +14,5 @@
         "j": 0,
         "j_err": 0,
         "position": 2
-    },
+    }
 ]
