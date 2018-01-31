@@ -1,5 +1,7 @@
 def main():
-	info('Pump after minibone analysis')
+	info('Pump after air analysis')
+	open('D')
+	close('G')
 	# gosub('jan:PumpMicrobone')
 	# gosub('jan:PumpMinibone')
-	# 
+	#

@@ -4,8 +4,8 @@ baseline:
   after: true
   before: false
   counts: 60
-  detector: AX
-  mass: Bs
+  detector: H2
+  mass: 39.5
 default_fits: nominal
 equilibration:
   eqtime: 5
@@ -18,9 +18,9 @@ multicollect:
   detector: AX
   isotope: Ar38
 peakcenter:
-  after: false
+  after: true
   before: false
-  detector: H1
+  detector: H2
   isotope: Ar40
 peakhop:
   hops_name: hop
