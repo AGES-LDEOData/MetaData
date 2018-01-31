@@ -23,10 +23,12 @@ def main():
 # POST EQUILIBRATION SCRIPT ngx_pump_air.py
 #===============================================================================
 def main():
-	info('Pump after minibone analysis')
+	info('Pump after air analysis')
+	open('D')
+	close('G')
 	# gosub('jan:PumpMicrobone')
 	# gosub('jan:PumpMinibone')
-	# 
+	#
 
 #===============================================================================
 # POST MEASUREMENT SCRIPT ngx_pump_ms.py
