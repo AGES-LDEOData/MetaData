@@ -76,8 +76,10 @@ def main():
         e = ex.eqtime
     else:
         e = mx.equilibration.eqtime
+    e = e*1.1
 
-    equilibrate(eqtime=e, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet)
+    equilibrate(eqtime=e, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet,
+                delay=mx.equilibration.inlet_delay)
 
     #equilibrate returns immediately after the inlet opens
     set_time_zero()
