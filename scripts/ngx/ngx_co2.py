@@ -9,7 +9,7 @@ def main():
 
     #prepare for analysis
     #gosub('PrepareCryo')
-    #gosub('PrepareCO2')
+    gosub('PrepareCO2')
 
 
     if analysis_type=='blank':
@@ -17,9 +17,11 @@ def main():
         sleep(duration)
     else:
         info('move to position {}'.format(position))
-        for p in position:
-            move_to_position(position)
 
+        for i, p in enumerate(position):
+            move_to_position(position)
+            if i==0:
+                close('D')
             begin_interval(duration)
             if ramp_rate>0:
                 info('ramping to {} at {} {}/s'.format(extract_value, ramp_rate, extract_units))
