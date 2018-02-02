@@ -34,7 +34,8 @@ peakhop:
 
 
 
-ACTIVE_DETECTORS=('H2','H1','AX','L1','L2')
+#ACTIVE_DETECTORS=('H2','H1','AX','L1','L2')
+ACTIVE_DETECTORS = ('L2',)
 
 def main():
     #this is a comment
@@ -77,9 +78,8 @@ def main():
         e = ex.eqtime
     else:
         e = mx.equilibration.eqtime
-    e = e*1.1
 
-    equilibrate(eqtime=e, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet,
+    equilibrate(eqtime=e*1.1, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet,
                 delay=mx.equilibration.inlet_delay)
 
     #equilibrate returns immediately after the inlet opens
