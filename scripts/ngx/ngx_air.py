@@ -76,7 +76,7 @@ def main():
         e = ex.eqtime
     else:
         e = mx.equilibration.eqtime
-    
+
     equilibrate(eqtime=e*1.1, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet,
                 delay=mx.equilibration.inlet_delay)
 
@@ -95,6 +95,7 @@ def main():
         baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
 
     if mx.peakcenter.after:
+        activate_detectors('H2','AX', 'L2', peak_center=True)
         peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
     info('finished measure script')
 
