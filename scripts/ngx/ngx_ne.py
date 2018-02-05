@@ -6,7 +6,7 @@ baseline:
   counts: 60
   detector: H2
   mass: 19.5
-default_fits: nominal
+default_fits: ne
 equilibration:
   eqtime: 5
   inlet: B
@@ -18,10 +18,10 @@ multicollect:
   detector: AX
   isotope: Ne20
 peakcenter:
-  after: false
+  after: true
   before: false
-  detector: H2
-  isotope: Ar40
+  detector: L2
+  isotope: Ne22
 peakhop:
   hops_name: hops/ne_hops.yaml
   use_peak_hop: true
@@ -56,8 +56,8 @@ def main():
     #set the cdd operating voltage
     # set_cdd_operating_voltage(100)
 
-    if mx.peakcenter.before:
-        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
+    # if mx.peakcenter.before:
+    #     peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
 
     #open a plot panel for this detectors
     activate_detectors(*ACTIVE_DETECTORS)
@@ -86,11 +86,13 @@ def main():
     set_time_zero()
 
     sniff(e)
+
+    hops = load_hops(mx.peakhop.hops_name)
+    define_hops(hops)
+
     #set default regression
     set_fits()
     set_baseline_fits()
-    hops = load_hops(mx.peakhop.hops_name)
-    define_hops(hops)
 
     peak_hop(ncycles=mx.peakhop.ncycles, hops=hops)
     #multicollect on active detectors
