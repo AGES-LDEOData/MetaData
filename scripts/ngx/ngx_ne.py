@@ -102,6 +102,7 @@ def main():
         baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
 
     if mx.peakcenter.after:
+        activate_detectors('L2', peak_center=True)
         peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
     info('finished measure script')
 
