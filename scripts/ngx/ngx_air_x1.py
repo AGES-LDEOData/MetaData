@@ -35,15 +35,15 @@ def main():
     # close(description='Outer Pipette 2')
 
 #===============================================================================
-# POST EQUILIBRATION SCRIPT ngx_pump_air.py
+# POST EQUILIBRATION SCRIPT ngx_pump_unknown.py
 #===============================================================================
 def main():
-	info('Pump after air analysis')
-	open('D')
-	close('G')
-	# gosub('jan:PumpMicrobone')
-	# gosub('jan:PumpMinibone')
-	#
+    info('Pump after analysis')
+    open('D')
+
+    # degas t
+    # gosub('obama:PumpBone')
+    # gosub('obama:PumpMinibone')
 
 #===============================================================================
 # POST MEASUREMENT SCRIPT ngx_pump_ms.py
