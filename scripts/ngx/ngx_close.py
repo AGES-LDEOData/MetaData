@@ -11,25 +11,17 @@ def main():
     close('D')
     sleep(180)
 
-    # gosub('jan:WaitForMiniboneAccess')
-    # gosub('jan:PrepareForAirShot')
-    # gosub('jan:EvacPipette2')
-    # gosub('common:ExpandPipette2')
-    # gosub('common:FillPipette2')
-    # gosub('jan:PrepareForAirShotExpansion')
-    # gosub('common:ExpandPipette2')
-    # close(description='Outer Pipette 2')
-
 #===============================================================================
-# POST EQUILIBRATION SCRIPT ngx_pump_unknown.py
+# POST EQUILIBRATION SCRIPT ngx_pump_air.py
 #===============================================================================
 def main():
-    info('Pump after analysis')
-    open('D')
-
-    # degas t
-    # gosub('obama:PumpBone')
-    # gosub('obama:PumpMinibone')
+	info('Pump after air analysis')
+	open('D')
+	close('G')
+	open('A')
+	# gosub('jan:PumpMicrobone')
+	# gosub('jan:PumpMinibone')
+	#
 
 #===============================================================================
 # POST MEASUREMENT SCRIPT ngx_pump_ms.py
