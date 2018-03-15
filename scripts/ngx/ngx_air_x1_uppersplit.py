@@ -25,12 +25,14 @@ def main():
     open('G')
     sleep(180)
     close('A')
+    sleep(5)
 
 #===============================================================================
 # POST EQUILIBRATION SCRIPT ngx_pump_air.py
 #===============================================================================
 def main():
 	info('Pump after air analysis')
+	sleep(3)
 	open('D')
 	close('G')
 	open('A')
