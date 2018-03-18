@@ -76,19 +76,20 @@ def main():
         e = ex.eqtime
     else:
         e = mx.equilibration.eqtime
-
+    set_integration_time(1)
     equilibrate(eqtime=e*1.1, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet,
                 delay=mx.equilibration.inlet_delay)
 
     #equilibrate returns immediately after the inlet opens
     set_time_zero()
 
-    sniff(e/10)
+    sniff(e)
     #set default regression
     set_fits()
     set_baseline_fits()
 
     #multicollect on active detectors
+    set_integration_time(10)
     multicollect(ncounts=mx.multicollect.counts, integration_time=10)
 
     if mx.baseline.after:
