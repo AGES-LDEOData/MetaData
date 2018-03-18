@@ -83,7 +83,7 @@ def main():
     #equilibrate returns immediately after the inlet opens
     set_time_zero()
 
-    sniff(e)
+    sniff(e/10)
     #set default regression
     set_fits()
     set_baseline_fits()
