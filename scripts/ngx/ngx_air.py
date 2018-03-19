@@ -3,7 +3,7 @@
 baseline:
   after: true
   before: false
-  counts: 6
+  counts: 2
   detector: H2
   mass: 39.5
 default_fits: nominal
@@ -14,7 +14,7 @@ equilibration:
   outlet: Z
   use_extraction_eqtime: true
 multicollect:
-  counts: 24
+  counts: 2
   detector: AX
   isotope: Ar38
 peakcenter:
@@ -95,9 +95,10 @@ def main():
     if mx.baseline.after:
         baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
 
+    set_integration_time(1)
     if mx.peakcenter.after:
         activate_detectors('H2','AX', 'L2', peak_center=True)
-        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
+        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope, integration_time=1)
     info('finished measure script')
 
 #========================EOF==============================================================
