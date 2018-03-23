@@ -8,12 +8,20 @@ eqtime: 30
 '''
 def main():
     info('NGX Air Script')
+    cryofocus = True
     open('D')
+    if cryofocus:
+        open('A')
+        open('C')
+        gosub('CryoWaitPump')
     close('H')
     sleep(5)
     open('G')
     sleep(120)
     close('G')
+    if cryofocus:
+        close('C')
+        gosub('CryoWaitFreeze')
     sleep(5)
     if not analysis_type=='blank':
         open('H')
@@ -23,7 +31,15 @@ def main():
     sleep(5)
     open('G')
     sleep(180)
-    open('A')
+    if cryofocus:
+        open('C')
+        gosub('CryoWaitFreeze')
+        sleep(180)
+        close('A')
+        gosub('CryoWaitRelease')
+        sleep(300)
+    if not cryofocus:
+        open('A')
 
 #===============================================================================
 # POST EQUILIBRATION SCRIPT ngx_pump_air.py
