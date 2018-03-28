@@ -1,4 +1,15 @@
 {
-    "positions": [], 
+    "positions": [
+        {
+            "analyses": [], 
+            "decay_constants": {}, 
+            "identifier": "", 
+            "j": 0.0001252, 
+            "j_err": 4.7279e-07, 
+            "mean_j": 0, 
+            "mean_j_err": 0, 
+            "position": 7
+        }
+    ], 
     "z": 0
 }
