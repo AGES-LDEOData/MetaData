@@ -3,12 +3,62 @@
         {
             "analyses": [], 
             "decay_constants": {}, 
-            "identifier": "", 
+            "identifier": "100027", 
             "j": 0.0001252, 
             "j_err": 4.7279e-07, 
             "mean_j": 0, 
             "mean_j_err": 0, 
             "position": 7
+        }, 
+        {
+            "analyses": [], 
+            "decay_constants": {}, 
+            "identifier": "", 
+            "j": 0, 
+            "j_err": 0, 
+            "mean_j": 0, 
+            "mean_j_err": 0, 
+            "position": 1
+        }, 
+        {
+            "analyses": [], 
+            "decay_constants": {}, 
+            "identifier": "", 
+            "j": 0, 
+            "j_err": 0, 
+            "mean_j": 0, 
+            "mean_j_err": 0, 
+            "position": 9
+        }, 
+        {
+            "analyses": [], 
+            "decay_constants": {}, 
+            "identifier": "", 
+            "j": 0, 
+            "j_err": 0, 
+            "mean_j": 0, 
+            "mean_j_err": 0, 
+            "position": 10
+        }, 
+        {
+            "analyses": [], 
+            "decay_constants": {}, 
+            "identifier": "", 
+            "j": 0, 
+            "j_err": 0, 
+            "mean_j": 0, 
+            "mean_j_err": 0, 
+            "position": 11
+        }, 
+        {
+            "analyses": [], 
+            "decay_constants": {}, 
+            "identifier": "", 
+            "j": 0, 
+            "j_err": 0, 
+            "mean_j": 0, 
+            "mean_j_err": 0, 
+            "position": 12
         }
     ], 
     "z": 0
