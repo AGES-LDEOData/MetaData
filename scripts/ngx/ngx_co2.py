@@ -14,6 +14,7 @@ def main():
 
     if analysis_type=='blank':
         info('is blank. not heating')
+        close('D')
         sleep(duration)
     else:
         info('move to position {}'.format(position))
