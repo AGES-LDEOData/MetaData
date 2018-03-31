@@ -3,7 +3,7 @@
 baseline:
   after: true
   before: false
-  counts: 6
+  counts: 60
   detector: H2
   mass: 39.5
 default_fits: nominal
@@ -14,7 +14,7 @@ equilibration:
   outlet: Z
   use_extraction_eqtime: true
 multicollect:
-  counts: 24
+  counts: 240
   detector: AX
   isotope: Ar38
 peakcenter:
@@ -89,8 +89,8 @@ def main():
     set_baseline_fits()
 
     #multicollect on active detectors
-    set_integration_time(10)
-    multicollect(ncounts=mx.multicollect.counts, integration_time=10)
+    set_integration_time(1)
+    multicollect(ncounts=mx.multicollect.counts, integration_time=1)
 
     if mx.baseline.after:
         baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
