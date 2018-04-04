@@ -15,7 +15,7 @@ equilibration:
   use_extraction_eqtime: true
 multicollect:
   counts: 120
-  detector: AX
+  detector: L2
   isotope: Ne20
 peakcenter:
   after: true
