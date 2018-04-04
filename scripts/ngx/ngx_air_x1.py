@@ -38,27 +38,25 @@ def main():
         open('A')
 
 #===============================================================================
-# POST EQUILIBRATION SCRIPT ngx_pump_cryo.py
+# POST EQUILIBRATION SCRIPT ngx_pump_air.py
 #===============================================================================
-"""
-"""
-
 def main():
-    args = set_cryo('pump')
-    if args:
-        v1,v2 = args
-        tol = 5
-        cnt = 0
-        cnt_tol = 2
-        while 1:
-          av1 = get_cryo_temp(1)
-          if abs(av1 - v1)<tol:
-              av2 = get_cryo_temp(2)
-              if abs(av2-v2)<tol:
-                  cnt+=1
-          if cnt>cnt_tol:
-              break
-          sleep(5)
+	info('Pump after air analysis')
+	cryofocus = True
+	sleep(3)
+	open('D')
+	if cryofocus:
+		open('A')
+		open('C')
+		gosub('CryoWaitPump')
+		sleep(120)
+		close('C')
+		set_cryo('freeze')
+	close('G')
+	open('A')
+	# gosub('jan:PumpMicrobone')
+	# gosub('jan:PumpMinibone')
+	#
 
 #===============================================================================
 # POST MEASUREMENT SCRIPT ngx_pump_ms.py

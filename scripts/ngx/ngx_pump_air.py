@@ -1,6 +1,6 @@
 def main():
 	info('Pump after air analysis')
-	cryofocus = False
+	cryofocus = True
 	sleep(3)
 	open('D')
 	if cryofocus:
