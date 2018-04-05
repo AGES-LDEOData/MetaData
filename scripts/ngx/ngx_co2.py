@@ -6,12 +6,10 @@ eqtime: 30
 """
 def main():
     info('NGX laser analysis')
-
+    cryofocus = True
     #prepare for analysis
     #gosub('PrepareCryo')
     gosub('PrepareCO2')
-
-
     if analysis_type=='blank':
         info('is blank. not heating')
         close('D')
@@ -35,17 +33,35 @@ def main():
     if not analysis_type=='blank':
         disable()
     sleep(cleanup)
+    if cryofocus:
+        open('C')
+        gosub('CryoWaitFreeze')
+        sleep(180)
+        close('A')
+        gosub('CryoWaitRelease')
+        sleep(300)
+    if not cryofocus:
+        open('A')
 
 #===============================================================================
 # POST EQUILIBRATION SCRIPT ngx_pump_unknown.py
 #===============================================================================
 def main():
-    info('Pump after analysis')
-    open('D')
-
-    # degas t
-    # gosub('obama:PumpBone')
-    # gosub('obama:PumpMinibone')
+	info('Pump after air analysis')
+	cryofocus = True
+	sleep(3)
+	open('D')
+	if cryofocus:
+		open('A')
+		open('C')
+		gosub('CryoWaitPump')
+		sleep(120)
+		close('C')
+		set_cryo('freeze')
+	open('A')
+	# gosub('jan:PumpMicrobone')
+	# gosub('jan:PumpMinibone')
+	#
 
 #===============================================================================
 # POST MEASUREMENT SCRIPT ngx_pump_ms.py
