@@ -8,7 +8,7 @@ eqtime: 30
 '''
 def main():
     info('NGX Air Script')
-    cryofocus = True
+    cryofocus = False
     open('D')
     close('H')
     sleep(5)
@@ -42,7 +42,7 @@ def main():
 #===============================================================================
 def main():
 	info('Pump after air analysis')
-	cryofocus = True
+	cryofocus = False
 	sleep(3)
 	open('D')
 	if cryofocus:
