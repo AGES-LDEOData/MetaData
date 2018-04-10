@@ -43,12 +43,32 @@
         {
             "analyses": [], 
             "decay_constants": {}, 
-            "identifier": "", 
+            "identifier": "GLO-01", 
             "j": 0, 
             "j_err": 0, 
             "mean_j": 0, 
             "mean_j_err": 0, 
             "position": 5
+        }, 
+        {
+            "analyses": [], 
+            "decay_constants": {}, 
+            "identifier": "neb-01-N", 
+            "j": 0, 
+            "j_err": 0, 
+            "mean_j": 0, 
+            "mean_j_err": 0, 
+            "position": 6
+        }, 
+        {
+            "analyses": [], 
+            "decay_constants": {}, 
+            "identifier": "", 
+            "j": 0, 
+            "j_err": 0, 
+            "mean_j": 0, 
+            "mean_j_err": 0, 
+            "position": 7
         }
     ], 
     "z": 0
