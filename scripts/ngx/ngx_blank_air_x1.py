@@ -24,7 +24,7 @@ def main():
     close('D')
     sleep(5)
     open('G')
-    sleep(180)
+    sleep(cleanup)
     if cryofocus:
         open('C')
         gosub('CryoWaitFreeze')
