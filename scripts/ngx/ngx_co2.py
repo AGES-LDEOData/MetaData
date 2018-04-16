@@ -24,7 +24,7 @@ def main():
             begin_interval(duration)
             if ramp_rate>0:
                 info('ramping to {} at {} {}/s'.format(extract_value, ramp_rate, extract_units))
-                ramp(setpoint=extract_value, rate=ramp_rate)
+                ramp(setpoint=extract_value, duration=ramp_duration, period=0.5)
             else:
                 info('set heat to {}'.format(extract_value))
                 extract(extract_value)
