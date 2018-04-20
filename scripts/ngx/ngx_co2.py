@@ -22,7 +22,7 @@ def main():
             if i==0:
                 close('D')
             begin_interval(duration)
-            if ramp_rate>0:
+            if ramp_duration>0:
                 info('ramping to {} at {} {}/s'.format(extract_value, ramp_rate, extract_units))
                 ramp(setpoint=extract_value, duration=ramp_duration, period=0.5)
             else:
