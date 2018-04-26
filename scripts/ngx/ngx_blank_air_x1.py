@@ -30,7 +30,15 @@ def main():
         gosub('CryoWaitFreeze')
         sleep(180)
         close('A')
+        sleep(5)
+        open('D')
         gosub('CryoWaitRelease')
+        p_test = get_pressure('Hub','IG1')
+        info('the value of p_test is ={}'.format(p_test))
+        if p_test > 1e-7:
+            cancel()
+        if p_test == 0:
+            cancel()
         sleep(300)
     if not cryofocus:
         open('A')
