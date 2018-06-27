@@ -23,7 +23,7 @@ peakcenter:
   detector: AX
   isotope: Ar40
 peakhop:
-  hops_name: hops/ar_axial_hops.yaml
+  hops_name: hops/ar_ATONA_hops.yaml
   use_peak_hop: true
   ncycles: 10
 
