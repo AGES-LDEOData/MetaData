@@ -4,7 +4,7 @@ baseline:
   after: true
   before: false
   counts: 60
-  detector: L2
+  detector: AX
   mass: 41.5
 default_fits: nominal
 equilibration:
@@ -20,10 +20,10 @@ multicollect:
 peakcenter:
   after: false
   before: false
-  detector: L2
+  detector: AX
   isotope: Ar40
 peakhop:
-  hops_name: hops/ar_hops.yaml
+  hops_name: hops/ar_axial_hops.yaml
   use_peak_hop: true
   ncycles: 10
 
@@ -34,8 +34,8 @@ peakhop:
 
 
 
-#ACTIVE_DETECTORS=('H2','H1','AX','L1','L2')
-ACTIVE_DETECTORS = ('L2',)
+ACTIVE_DETECTORS=('H2','H1','AX','L1','L2')
+#ACTIVE_DETECTORS = ('AX',)
 
 def main():
     #this is a comment
