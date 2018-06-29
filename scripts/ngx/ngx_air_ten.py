@@ -3,7 +3,7 @@
 baseline:
   after: true
   before: false
-  counts: 60
+  counts: 10
   detector: H2
   mass: 39.5
 default_fits: nominal
@@ -14,7 +14,7 @@ equilibration:
   outlet: Z
   use_extraction_eqtime: true
 multicollect:
-  counts: 600
+  counts: 60
   detector: AX
   isotope: Ar38
 peakcenter:
