@@ -3,7 +3,7 @@
 baseline:
   after: true
   before: false
-  counts: 60
+  counts: 10
   detector: H2
   mass: 41.5
 default_fits: nominal
