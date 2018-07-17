@@ -103,7 +103,8 @@ def main():
         baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
     set_integration_time(1)
     if mx.peakcenter.after:
-        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
+        activate_detectors('H2', peak_center=True)
+        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope, integration_time=1)
     info('finished measure script')
 
 #========================EOF==============================================================
