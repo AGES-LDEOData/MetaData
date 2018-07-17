@@ -69,6 +69,9 @@ def main():
     #position mass spectrometer
     position_magnet(mx.multicollect.isotope, detector=mx.multicollect.detector)
 
+    hops = load_hops(mx.peakhop.hops_name)
+    define_hops(hops)
+
     #gas is staged behind inlet
 
     #post equilibration script triggered after eqtime elapsed
@@ -86,9 +89,6 @@ def main():
     set_time_zero()
 
     sniff(e)
-
-    hops = load_hops(mx.peakhop.hops_name)
-    define_hops(hops)
 
     #set default regression
     set_fits()
