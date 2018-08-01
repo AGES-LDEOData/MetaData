@@ -33,7 +33,7 @@ def main():
         sleep(300)
     if not cryofocus:
         open('A')
-        sleep(180)
+        sleep(5)
 
 #===============================================================================
 # POST EQUILIBRATION SCRIPT ngx_pump_unknown.py
