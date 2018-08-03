@@ -8,6 +8,12 @@ eqtime: 30
 '''
 def main():
     info('NGX Air Script')
+    p_test = get_pressure('Hub','IG1')
+    info('the value of p_test is ={}'.format(p_test))
+    if p_test > 1e-7:
+        cancel()
+    if p_test == 0:
+        cancel()
     cryofocus = False
     open('D')
     close('H')
