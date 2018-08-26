@@ -18,9 +18,9 @@ multicollect:
   detector: AX
   isotope: Ar38
 peakcenter:
-  after: false
+  after: true
   before: false
-  detector: AX
+  detector: H2
   isotope: Ar40
 peakhop:
   hops_name: hops/ar_multi_hops.yaml
@@ -99,11 +99,11 @@ def main():
     #multicollect(ncounts=mx.multicollect.counts, integration_time=1)
 
     if mx.baseline.after:
-        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
+        baselines(ncounts=mx.baseline.counts, mass=mx.baseline.mass, detector=mx.baseline.detector)
 
     set_integration_time(1)
     if mx.peakcenter.after:
-        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
+        peak_center(detector=mx.peakcenter.detector, isotope=mx.peakcenter.isotope, integration_time=1)
     info('finished measure script')
 
 #========================EOF==============================================================
