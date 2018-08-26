@@ -3,7 +3,7 @@
 baseline:
   after: true
   before: false
-  counts: 60
+  counts: 6
   detector: AX
   mass: 39.5
 default_fits: nominal
