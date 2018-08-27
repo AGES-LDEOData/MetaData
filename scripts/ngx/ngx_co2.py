@@ -6,7 +6,13 @@ eqtime: 30
 """
 def main():
     info('NGX laser analysis')
-    cryofocus = True
+    p_test = get_pressure('Hub','IG1')
+    info('the value of p_test is ={}'.format(p_test))
+    if p_test > 1e-7:
+        cancel()
+    if p_test == 0:
+        cancel()
+    cryofocus = False
     #prepare for analysis
     #gosub('PrepareCryo')
     gosub('PrepareCO2')
@@ -57,7 +63,7 @@ def main():
 #===============================================================================
 def main():
 	info('Pump after air analysis')
-	cryofocus = True
+	cryofocus = False
 	sleep(3)
 	open('D')
 	if cryofocus:
