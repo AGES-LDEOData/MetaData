@@ -18,7 +18,7 @@ multicollect:
   detector: L2
   isotope: Ar36
 peakcenter:
-  after: false
+  after: true
   before: false
   detector: L2
   isotope: Ar40
