@@ -1,0 +1,15 @@
+def main():
+	info('Pump after crusher analysis')
+	sleep(3)
+	open('D')
+	open('A')
+	open('C')
+	open('I')
+	open('J')
+	gosub('CryoWaitPump')
+	sleep(120)
+	close('C')
+	set_cryo('freeze')
+	# gosub('jan:PumpMicrobone')
+	# gosub('jan:PumpMinibone')
+	#
