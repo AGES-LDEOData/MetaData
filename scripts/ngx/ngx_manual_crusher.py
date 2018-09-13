@@ -42,7 +42,7 @@ def main():
     gosub('CryoWaitRelease')
     p_test = get_pressure('Hub','IG1')
     info('the value of p_test is ={}'.format(p_test))
-    if p_test > 1e-7:
+    if p_test > 5e-8:
         cancel()
     if p_test == 0:
         cancel()
