@@ -31,10 +31,17 @@ def main():
             if ramp_duration>0:
                 fire_laser()
                 info('ramping to {} at {} {}/s'.format(extract_value, ramp_rate, extract_units))
-                ramp(setpoint=extract_value, duration=ramp_duration, period=0.5)
+                elapsed=ramp(setpoint=extract_value, duration=ramp_duration, period=0.5)
+                pelapsed=execute_pattern(pattern)
+                sleep(max(0, duration-elapsed-pelapsed))
             else:
                 info('set heat to {}'.format(extract_value))
                 extract(extract_value)
+
+                if pattern:
+                    info('executing pattern {}'.format(pattern))
+                    execute_pattern(pattern)
+
             complete_interval()
 
     if not analysis_type=='blank':
