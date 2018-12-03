@@ -9,7 +9,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 1
+            "position": 1,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -20,7 +21,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 2
+            "position": 2,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -31,7 +33,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 6
+            "position": 6,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -42,7 +45,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 11
+            "position": 11,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -53,7 +57,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 13
+            "position": 13,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -64,7 +69,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 17
+            "position": 17,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -75,7 +81,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 19
+            "position": 19,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -86,7 +93,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 21
+            "position": 21,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -97,7 +105,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 23
+            "position": 23,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -108,7 +117,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 25
+            "position": 25,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -119,7 +129,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 27
+            "position": 27,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -130,7 +141,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 29
+            "position": 29,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -141,7 +153,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 30
+            "position": 30,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -152,7 +165,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 32
+            "position": 32,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -163,7 +177,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 34
+            "position": 34,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -174,7 +189,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 3
+            "position": 3,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -185,7 +201,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 5
+            "position": 5,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -196,7 +213,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 7
+            "position": 7,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -207,7 +225,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 16
+            "position": 16,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -218,7 +237,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 18
+            "position": 18,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -229,7 +249,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 20
+            "position": 20,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -240,7 +261,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 22
+            "position": 22,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -251,7 +273,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 24
+            "position": 24,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -262,7 +285,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 26
+            "position": 26,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -273,7 +297,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 28
+            "position": 28,
+            "position_jerr": null
         },
         {
             "analyses": [],
@@ -284,7 +309,8 @@
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
-            "position": 12
+            "position": 12,
+            "position_jerr": null
         }
     ],
     "z": 0
