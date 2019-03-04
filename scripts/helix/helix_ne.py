@@ -9,9 +9,9 @@ baseline:
 default_fits: nominal
 equilibration:
   eqtime: 5
-  inlet: 2
+  inlet: '2'
   inlet_delay: 5
-  outlet: 1
+  outlet: '1'
   use_extraction_eqtime: true
 multicollect:
   counts: 600
@@ -77,8 +77,8 @@ def main():
     else:
         e = mx.equilibration.eqtime
 
-    # equilibrate(eqtime=e*1.1, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet,
-    #             delay=mx.equilibration.inlet_delay)
+    equilibrate(eqtime=e*1.1, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet,
+                delay=mx.equilibration.inlet_delay)
     sleep(10)
 
     #equilibrate returns immediately after the inlet opens
