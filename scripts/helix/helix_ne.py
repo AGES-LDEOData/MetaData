@@ -3,7 +3,7 @@
 baseline:
   after: true
   before: false
-  counts: 60
+  counts: 15
   detector: AX_CDD
   mass: 21.9
 default_fits: nominal
@@ -14,7 +14,7 @@ equilibration:
   outlet: '1'
   use_extraction_eqtime: true
 multicollect:
-  counts: 600
+  counts: 300
   detector: AX_CDD
   isotope: Ne21
 peakcenter:
