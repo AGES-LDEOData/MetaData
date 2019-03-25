@@ -7,7 +7,7 @@ modifier: 1
 eqtime: 30
 '''
 def main():
-    info('Helix MC Quick Aux Tank Standard Script')
+    info('Helix MC Aux Tank Standard Script')
     # Aux tank is hooked up at valve 59; set correct control valve numbers!
     close('16')
     close('18')
@@ -26,7 +26,8 @@ def main():
     close('37')
     sleep(15)
     # fill pipette
-    open('36')
+    if not analysis_type=='blank':
+        open('36')
     sleep(60)
     close('36')
     sleep(15)
