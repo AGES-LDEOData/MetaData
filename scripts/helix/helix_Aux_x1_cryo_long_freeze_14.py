@@ -69,7 +69,7 @@ def main():
     open('14')
 
 #===============================================================================
-# POST EQUILIBRATION SCRIPT helix_aux.py
+# POST EQUILIBRATION SCRIPT helix_aux_14.py
 #===============================================================================
 def main():
 	info('Pump line after aux tank input')
@@ -84,7 +84,7 @@ def main():
 	open('15')
 	close('37')
 	sleep(60)
-	set_cryo('freeze')
+	set_cryo('He_freeze')
 	sleep(5)
 	close('14')
 
