@@ -90,7 +90,7 @@ def main():
 
     #multicollect on active detectors
     set_integration_time(10)
-    multicollect(ncounts=mx.multicollect.counts, integration_time=1)
+    multicollect(ncounts=mx.multicollect.counts, integration_time=10)
 
     if mx.baseline.after:
         baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
