@@ -30,9 +30,13 @@ def main():
             begin_interval(duration)
             if ramp_duration>0:
                 fire_laser()
+                sleep(0.5)
                 info('ramping to {} at {} {}/s'.format(extract_value, ramp_rate, extract_units))
                 elapsed=ramp(setpoint=extract_value, duration=ramp_duration, period=0.5)
-                pelapsed=execute_pattern(pattern)
+                if pattern:
+                    pelapsed=execute_pattern(pattern)
+                else:
+                    pelapsed = 0
                 sleep(max(0, duration-elapsed-pelapsed))
             else:
                 info('set heat to {}'.format(extract_value))
