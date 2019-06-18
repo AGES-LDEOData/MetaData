@@ -1,4 +1,41 @@
 {
-    "positions": [],
+    "positions": [
+        {
+            "analyses": [],
+            "decay_constants": {},
+            "identifier": "",
+            "j": 0.0017972,
+            "j_err": 3.0593e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "options": {},
+            "position": 31,
+            "position_jerr": null
+        },
+        {
+            "analyses": [],
+            "decay_constants": {},
+            "identifier": "",
+            "j": 0.0017972,
+            "j_err": 3.0593e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "options": {},
+            "position": 32,
+            "position_jerr": null
+        },
+        {
+            "analyses": [],
+            "decay_constants": {},
+            "identifier": "",
+            "j": 0.0017972,
+            "j_err": 3.0593e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "options": {},
+            "position": 33,
+            "position_jerr": null
+        }
+    ],
     "z": 0
 }
