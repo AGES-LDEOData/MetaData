@@ -23,6 +23,18 @@
             "options": {},
             "position": 12,
             "position_jerr": null
+        },
+        {
+            "analyses": [],
+            "decay_constants": {},
+            "identifier": "",
+            "j": 0.0020802,
+            "j_err": 1.3264e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "options": {},
+            "position": 8,
+            "position_jerr": null
         }
     ],
     "z": 0
