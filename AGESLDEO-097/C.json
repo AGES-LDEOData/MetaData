@@ -39,7 +39,7 @@
         {
             "analyses": [],
             "decay_constants": {},
-            "identifier": 100286,
+            "identifier": "100286",
             "j": 0,
             "j_err": 0,
             "mean_j": 0,
@@ -51,7 +51,7 @@
         {
             "analyses": [],
             "decay_constants": {},
-            "identifier": 100288,
+            "identifier": "100288",
             "j": 0,
             "j_err": 0,
             "mean_j": 0,
@@ -63,7 +63,7 @@
         {
             "analyses": [],
             "decay_constants": {},
-            "identifier": 100289,
+            "identifier": "100289",
             "j": 0,
             "j_err": 0,
             "mean_j": 0,
@@ -75,7 +75,7 @@
         {
             "analyses": [],
             "decay_constants": {},
-            "identifier": 100287,
+            "identifier": "100287",
             "j": 0,
             "j_err": 0,
             "mean_j": 0,
