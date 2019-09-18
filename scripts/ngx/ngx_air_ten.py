@@ -4,7 +4,7 @@ baseline:
   after: true
   before: false
   counts: 10
-  detector: H2
+  detector: AX
   mass: 39.5
 default_fits: nominal
 equilibration:
@@ -93,7 +93,7 @@ def main():
     multicollect(ncounts=mx.multicollect.counts, integration_time=10)
 
     if mx.baseline.after:
-        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
+        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector, integration_time=10)
 
     set_integration_time(1)
     if mx.peakcenter.after:
