@@ -14,7 +14,7 @@ equilibration:
   outlet: '1'
   use_extraction_eqtime: true
 multicollect:
-  counts: 300
+  counts: 400
   detector: AX_CDD
   isotope: Ne21
 peakcenter:

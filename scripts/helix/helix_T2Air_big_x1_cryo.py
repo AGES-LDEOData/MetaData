@@ -69,20 +69,19 @@ def main():
     open('14')
 
 #===============================================================================
-# POST EQUILIBRATION SCRIPT helix_aux.py
+# POST EQUILIBRATION SCRIPT helix_T2Air.py
 #===============================================================================
 def main():
 	info('Pump line after aux tank input')
-	open('50')
+	open('19')
 	open('9')
 	sleep(10)
-	close('3')
 	gosub('CryoWaitPump')
 	sleep(60)
-	open('3')
 	close('16')
 	open('15')
-	close('37')
+	close('32')
+	close('34')
 	sleep(60)
 	set_cryo('freeze')
 	sleep(5)
