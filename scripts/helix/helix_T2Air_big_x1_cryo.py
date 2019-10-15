@@ -4,7 +4,7 @@
 '''
 sensitivity_multiplier: 0.5
 modifier: 1
-eqtime: 30
+eqtime: 60
 '''
 def main():
     info('Helix MC 2 Air Tank Big Shot Standard Script')
