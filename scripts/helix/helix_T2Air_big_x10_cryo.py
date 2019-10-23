@@ -56,7 +56,7 @@ def main():
         sleep(5)
         # inlet pipette and wait, then close again
         open('32')
-        sleep(60)
+        sleep(120)
         close('32')
     # make sure everything is focused
     sleep(900)
