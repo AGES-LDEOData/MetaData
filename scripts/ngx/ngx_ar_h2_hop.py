@@ -100,7 +100,7 @@ def main():
     #multicollect(ncounts=mx.multicollect.counts, integration_time=1)
 
     if mx.baseline.after:
-        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
+        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector, integration_time=10)
     set_integration_time(1)
     if mx.peakcenter.after:
         activate_detectors('H2', peak_center=True)
