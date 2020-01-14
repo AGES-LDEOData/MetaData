@@ -53,10 +53,10 @@ def main():
         sleep(5)
 
 #===============================================================================
-# POST EQUILIBRATION SCRIPT ngx_pump_air.py
+# POST EQUILIBRATION SCRIPT ngx_pump_aux.py
 #===============================================================================
 def main():
-	info('Pump after air analysis')
+	info('Pump after aux analysis')
 	cryofocus = False
 	sleep(3)
 	open('D')
@@ -67,7 +67,7 @@ def main():
 		sleep(120)
 		close('C')
 		set_cryo('freeze')
-	close('G')
+	close('E')
 	open('A')
 	# gosub('jan:PumpMicrobone')
 	# gosub('jan:PumpMinibone')
