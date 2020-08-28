@@ -99,10 +99,11 @@ def main():
     #multicollect(ncounts=mx.multicollect.counts, integration_time=1)
 
     if mx.baseline.after:
-        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
+        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector, integration_time=1)
 
+    set_integration_time(1)
     if mx.peakcenter.after:
-        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
+        peak_center(detector=mx.peakcenter.detector, isotope=mx.peakcenter.isotope, integration_time=1)
     info('finished measure script')
 
 #========================EOF==============================================================
