@@ -67,8 +67,7 @@ def main():
     #display information with info(msg)
     info('unknown measurement script')
 
-    ACTIVE_DETECTORS=('H2','H1','AX','L1','L2')
-    activate_detectors(*ACTIVE_DETECTORS)
+    activate_detectors('H2','H1','AX','L1','L2')
 
     if mx.baseline.peakhop_before:
         baselines(ncounts=mx.baseline.peakhop_counts, mass=mx.baseline.peakhop_mass, detector=mx.baseline.peakhop_detector)
@@ -103,10 +102,9 @@ def main():
     if result=='run_peak_hop':
 
         position_magnet(mx.peakhop.isotope, detector=mx.peakhop.detector)
-        reset_measurement(ACTIVE_DETECTORS)
-        ACTIVE_DETECTORS=('L2',)
+        reset_measurement('L2')
         #open a plot panel for this detectors
-        activate_detectors(*ACTIVE_DETECTORS)
+        activate_detectors('L2')
 
         hops = load_hops(mx.peakhop.hops_name)
         define_hops(hops)
@@ -128,11 +126,6 @@ def main():
             peak_center(detector=mx.peakcenter.peakhop_detector, isotope=mx.peakcenter.peakhop_isotope, integration_time=1)
 
     elif result=='run_multicollect':
-
-        # ACTIVE_DETECTORS=('H2','H1','AX','L1','L2')
-        # #open a plot panel for this detectors
-        # reset_measurement(ACTIVE_DETECTORS)
-        # activate_detectors(*ACTIVE_DETECTORS)
 
         set_fits()
         set_baseline_fits()
