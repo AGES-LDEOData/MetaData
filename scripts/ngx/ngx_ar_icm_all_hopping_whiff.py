@@ -55,7 +55,7 @@ whiff:
 
 
 
-#ACTIVE_DETECTORS = ('AX',)
+ACTIVE_DETECTORS=('H2','H1','AX','L1','L2')
 
 def main():
 
@@ -102,9 +102,9 @@ def main():
     if result=='run_peak_hop':
 
         position_magnet(mx.peakhop.isotope, detector=mx.peakhop.detector)
-        reset_measurement('L2')
+        reset_measurement(ACTIVE_DETECTORS)
         #open a plot panel for this detectors
-        activate_detectors('L2')
+        activate_detectors('L2',)
 
         hops = load_hops(mx.peakhop.hops_name)
         define_hops(hops)
