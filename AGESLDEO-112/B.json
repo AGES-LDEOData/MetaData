@@ -11,30 +11,6 @@
             "options": {},
             "position": 7,
             "position_jerr": null
-        },
-        {
-            "analyses": [],
-            "decay_constants": {},
-            "identifier": "",
-            "j": 8.72e-05,
-            "j_err": 8.72e-08,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "options": {},
-            "position": 8,
-            "position_jerr": null
-        },
-        {
-            "analyses": [],
-            "decay_constants": {},
-            "identifier": "",
-            "j": 8.72e-05,
-            "j_err": 8.72e-08,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "options": {},
-            "position": 9,
-            "position_jerr": null
         }
     ],
     "z": 0
