@@ -3,9 +3,9 @@
         {
             "analyses": [],
             "decay_constants": {},
-            "identifier": 100531,
-            "j": 0,
-            "j_err": 0,
+            "identifier": "100531",
+            "j": 8.72e-05,
+            "j_err": 8.72e-08,
             "mean_j": 0,
             "mean_j_err": 0,
             "options": {},
