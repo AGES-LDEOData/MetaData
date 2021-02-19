@@ -70,7 +70,7 @@ def main():
         open('A')
 
 #===============================================================================
-# POST EQUILIBRATION SCRIPT ngx_pump_unknown.py
+# POST EQUILIBRATION SCRIPT ngx_pump_air.py
 #===============================================================================
 def main():
 	info('Pump after air analysis')
@@ -84,6 +84,7 @@ def main():
 		sleep(120)
 		close('C')
 		set_cryo('freeze')
+	close('G')
 	open('A')
 	# gosub('jan:PumpMicrobone')
 	# gosub('jan:PumpMinibone')
