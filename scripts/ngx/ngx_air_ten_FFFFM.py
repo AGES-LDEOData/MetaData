@@ -98,7 +98,7 @@ def main():
 
     set_integration_time(1)
     if mx.peakcenter.after:
-        activate_detectors(ACTIVE_DETECTORS, peak_center=True)
+        activate_detectors(*ACTIVE_DETECTORS, peak_center=True)
         peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope, integration_time=1, config_name=mx.peakcenter.config_name)
     info('finished measure script')
 
