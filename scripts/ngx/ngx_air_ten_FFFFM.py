@@ -90,8 +90,7 @@ def main():
     set_baseline_fits()
 
     #multicollect on active detectors
-    set_integration_time(10)
-    multicollect(ncounts=mx.multicollect.counts, integration_time=10)
+    batch_multicollect(cblocks={1: (60, 1), 2: (6, 10)})
 
     if mx.baseline.after:
         baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector, integration_time=10)
