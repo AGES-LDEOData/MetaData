@@ -9,7 +9,7 @@ baseline:
 default_fits: nominal
 equilibration:
   eqtime: 5
-  inlet: '2'
+  inlet: '11'
   inlet_delay: 5
   outlet: '1'
   use_extraction_eqtime: true
