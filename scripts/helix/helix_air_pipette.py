@@ -34,7 +34,7 @@ def main():
 	sleep(5)
 	open('8')
 	gosub('CryoWaitFreeze')
-	sleep(300)
+	sleep(600)
 
 	open('4')
 	sleep(60)
@@ -51,7 +51,7 @@ def main():
 
 	gosub('CryoWaitRelease')
 
-	sleep(300)
+	sleep(600)
 
 #===============================================================================
 # POST EQUILIBRATION SCRIPT helix_post.py
