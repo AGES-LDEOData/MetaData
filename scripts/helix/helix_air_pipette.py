@@ -12,6 +12,9 @@ def main():
 	sleep(5)
 	open('6')
 	sleep(30)
+	#close cryo
+	close('8')
+	sleep(5)
 	# pump pipette
 	open('10')
 	sleep(120)
