@@ -102,7 +102,7 @@ def main():
         peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope, integration_time=1, config_name=mx.peakcenter.config_name)
     info('finished measure script')
 
-    sleep(10)
+    sleep(20)
 
 #========================EOF==============================================================
     #peak_hop(detector='CDD', isotopes=['Ar40','Ar39','Ar36'], cycles=2, integrations=3)
