@@ -10,7 +10,7 @@ default_fits: nominal
 equilibration:
   eqtime: 5
   inlet: B
-  inlet_delay: 5
+  inlet_delay: 3
   outlet: Z
   use_extraction_eqtime: true
 multicollect:
