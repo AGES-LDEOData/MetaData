@@ -4,10 +4,11 @@
             "analyses": [],
             "decay_constants": {},
             "identifier": "100691",
-            "j": 0.0037,
+            "j": 0.0037442,
             "j_err": 3.7e-06,
             "mean_j": 0,
             "mean_j_err": 0,
+            "mean_j_mswd": 0,
             "options": {},
             "position": 12,
             "position_jerr": null
