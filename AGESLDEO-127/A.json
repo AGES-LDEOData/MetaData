@@ -1,1332 +1,485 @@
 {
     "positions": [
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100800-01A",
-                    "uuid": "f23c4a43-a518-4788-bbc6-d5b7109de261"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100800-02A",
-                    "uuid": "58d69151-1bb6-4ca1-8902-d3cec67066a8"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100800-03",
-                    "uuid": "308b3492-d306-4fb6-b5e0-fc2b3724a824"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100800-04",
-                    "uuid": "695b94fc-e546-4d05-9ce4-9ac9571140e1"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100800-05",
-                    "uuid": "8683cd5a-aae0-43d7-b47b-2891b3d79e71"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100800",
-            "j": 0.0002503215517279202,
-            "j_err": 3.915874013776479e-06,
-            "mean_j": 0.00025035026806715017,
-            "mean_j_err": 1.361900296531514e-06,
-            "mean_j_mswd": 0.36434595958092497,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 1,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100801-01A",
-                    "uuid": "cdfdfdf3-b25f-4e7b-b927-45e9c0baed9b"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100801-02A",
-                    "uuid": "b2602b50-925d-4a54-beba-cbe3b3d1b486"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100801",
-            "j": 0.00025010879685349993,
-            "j_err": 2.764104540757912e-06,
-            "mean_j": 0.00025081674955945645,
-            "mean_j_err": 1.3093872356387176e-05,
-            "mean_j_mswd": 41.52105729855064,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 2,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100802-01A",
-                    "uuid": "395de67b-74e7-45e3-90ae-7a1a7e19a545"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100802-02A",
-                    "uuid": "a6c75a58-4998-41b1-9801-0a9e39d1aa18"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100802-03",
-                    "uuid": "298cf065-3344-463d-8e43-a44a7974978c"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100802-04",
-                    "uuid": "6eda2bb4-3100-4a5c-8b6e-840add3f1bc0"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100802-05",
-                    "uuid": "7ffa01c1-77d3-4fc9-aa85-197d9b616fe5"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100802",
-            "j": 0.0002505825018386755,
-            "j_err": 4.282385263668562e-06,
-            "mean_j": 0.0002505625907235583,
-            "mean_j_err": 5.666515332111689e-07,
-            "mean_j_mswd": 0.18576858179210542,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 4,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100803-01A",
-                    "uuid": "a0c99123-76a7-41ad-a6af-423e4f218818"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100803-02A",
-                    "uuid": "21e0440b-0151-4734-94be-f0756dbeb5ac"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100803-03",
-                    "uuid": "a4fcd637-ae0f-4033-9205-67e611acdcc2"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100803-04",
-                    "uuid": "69193d41-f93f-4738-88e7-6ece3eaa9d20"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100803-05",
-                    "uuid": "c9cd75b7-3a7b-401a-a1c8-4e3d44c67309"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100803",
-            "j": 0.0002501569920898349,
-            "j_err": 2.2781991632190843e-06,
-            "mean_j": 0.00025045623919480245,
-            "mean_j_err": 7.333631602763772e-07,
-            "mean_j_mswd": 0.27693749419553065,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 6,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100804-01A",
-                    "uuid": "d06499d4-151c-4663-9cc8-c345b7dcf193"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100804-02A",
-                    "uuid": "5252c45b-7a30-4441-ae88-b09568b5ac05"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100804-05",
-                    "uuid": "e1c5fa3d-d950-4206-b226-3ee22b79de8d"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100804",
-            "j": 0.0002497314823409943,
-            "j_err": 2.5746613691657335e-06,
-            "mean_j": 0.0002521237922940464,
-            "mean_j_err": 3.4996761864692816e-06,
-            "mean_j_mswd": 3.024235215889906,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 8,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100805-01A",
-                    "uuid": "8d921449-cbdf-46ea-965e-572807778383"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100805-02A",
-                    "uuid": "5b46c891-0265-4ab4-a816-b34d4c906982"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100805-04",
-                    "uuid": "6428d95f-1427-4462-b4c7-e1a6551266ec"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100805-05",
-                    "uuid": "241fc7de-da82-440f-b978-d141f2dd6481"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100805",
-            "j": 0.0002508434519494308,
-            "j_err": 4.636859945547071e-06,
-            "mean_j": 0.0002494926310006658,
-            "mean_j_err": 1.4982842397430637e-05,
-            "mean_j_mswd": 21.477533432788857,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 9,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100807-01A",
-                    "uuid": "88e4b6b0-4c00-46c6-b8c2-1f66e456d13b"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100807-02A",
-                    "uuid": "a1c29829-29fd-4277-96ad-47d22e0a89dd"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100807-04",
-                    "uuid": "b28d2961-b290-4e09-b5c1-ce5cfa358401"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100807-05",
-                    "uuid": "0aeb2a43-321c-407f-b1ba-2a196df45f3e"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100807",
-            "j": 0.0002504179422005902,
-            "j_err": 2.872688997441184e-06,
-            "mean_j": 0.0002510558087315573,
-            "mean_j_err": 7.826573296112894e-07,
-            "mean_j_mswd": 0.7955025988484442,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 11,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100809-01A",
-                    "uuid": "53372ae2-4baf-42ea-84e1-ee9af096dc3f"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100809-02A",
-                    "uuid": "23ac65a7-87a0-4fc5-89a3-54061467e242"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100809-03",
-                    "uuid": "5683a224-696b-4508-ae1e-c1b32981db4a"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100809-04",
-                    "uuid": "84393e4c-6aa1-4ca1-bbd1-603306f6a066"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100809-05",
-                    "uuid": "dc6b4e48-7d2b-4f26-b790-158dfbca5e09"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100809",
-            "j": 0.00024999243245174964,
-            "j_err": 1.2231773496361993e-06,
-            "mean_j": 0.0002493776100931459,
-            "mean_j_err": 8.740287812719257e-07,
-            "mean_j_mswd": 0.4992635382767177,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 13,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100811-01A",
-                    "uuid": "ff726335-b884-41be-bcdf-f118449718f3"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100811",
-            "j": 0.00024956692270290904,
-            "j_err": 2.4184014745006783e-06,
-            "mean_j": 0.0002433915992025418,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 15,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100812-01A",
-                    "uuid": "a68176b3-db90-4ac8-951a-b40c6024bbea"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100812-02A",
-                    "uuid": "ba5c1d9c-8ec7-4276-ae8f-eba643bf0c37"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100812",
-            "j": 0.00025089164718576575,
-            "j_err": 4.367900225752654e-06,
-            "mean_j": 0.0002515656398834491,
-            "mean_j_err": 3.4022371922160472e-06,
-            "mean_j_mswd": 8.02735096999907,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 16,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100813-01A",
-                    "uuid": "1c1c8fbb-13ad-4383-a4f6-63a83f41b8fc"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100813",
-            "j": 0.0002506788923113455,
-            "j_err": 3.366117943837753e-06,
-            "mean_j": 0.00025111569280205536,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 17,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100815-01A",
-                    "uuid": "271525e7-7011-4421-8d6d-6053458f9cac"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100815-02A",
-                    "uuid": "46255ddd-c9a6-4892-b1fd-00ac0a727c33"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100815",
-            "j": 0.00025025338256250487,
-            "j_err": 1.5036275072973736e-06,
-            "mean_j": 0.00024890788104925225,
-            "mean_j_err": 5.188838587647495e-06,
-            "mean_j_mswd": 4.458726815765214,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 19,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100817-01A",
-                    "uuid": "276ff93f-bf40-4374-9f1a-a1b0b51dfde5"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100817-02A",
-                    "uuid": "007063be-c269-46bc-b78b-901d1e3b1987"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100817",
-            "j": 0.00024982787281366427,
-            "j_err": 1.0189545442191638e-06,
-            "mean_j": 0.0002492739880993335,
-            "mean_j_err": 8.291718275204113e-07,
-            "mean_j_mswd": 0.9672870171925352,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 21,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100818-01A",
-                    "uuid": "4bee2015-cf6a-4712-8c9a-f75b07a96d5f"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100818",
-            "j": 0.000249615117939244,
-            "j_err": 1.994400031179729e-06,
-            "mean_j": 0.00025308333873992736,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 22,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100819-01A",
-                    "uuid": "51f82934-2f71-4878-a115-bbb72d41da7b"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100819-02A",
-                    "uuid": "5ed7a7c2-eacb-4243-9de8-c7df46da6c95"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100819",
-            "j": 0.0002509398424221007,
-            "j_err": 4.328310284909376e-06,
-            "mean_j": 0.0002480488089074994,
-            "mean_j_err": 3.2880918089749485e-05,
-            "mean_j_mswd": 27.61637807838622,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 23,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": true,
-                    "record_id": "100821-01A",
-                    "uuid": "c676859e-ea4e-4ced-bc52-342c820a874c"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100821-02A",
-                    "uuid": "bf543a39-3ed6-4bc7-a8f1-eeae33fa7120"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100821",
-            "j": 0.0002505143326732601,
-            "j_err": 2.2639091283677416e-06,
-            "mean_j": 0.0002525340247915896,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 25,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100823-01A",
-                    "uuid": "9c623d09-41f9-4a40-8e3f-86e7164e1f80"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100823-02A",
-                    "uuid": "443c0656-9bcd-4870-b000-a9c5a4691235"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100823",
-            "j": 0.00025008882292441956,
-            "j_err": 4.392802909801773e-07,
-            "mean_j": 0.00025041260616995726,
-            "mean_j_err": 4.4497558539115217e-07,
-            "mean_j_mswd": 0.19035540543392007,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 27,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100825-01A",
-                    "uuid": "831f399e-78cf-4fa6-872a-7e9cbc510c08"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100825-02A",
-                    "uuid": "63dd78cc-d6ec-4d4a-a1f7-81d0ddc9510d"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100825",
-            "j": 0.00024966331317557896,
-            "j_err": 2.1005278885154716e-06,
-            "mean_j": 0.00024711234868605785,
-            "mean_j_err": 2.240523092361606e-06,
-            "mean_j_mswd": 1.2194964938065642,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 29,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100826-01A",
-                    "uuid": "ed7748fa-4126-4b79-bbe0-6aed6a46b21f"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100826-02A",
-                    "uuid": "999535fc-c76d-427f-9207-73097fe45714"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100826",
-            "j": 0.00025077528278401545,
-            "j_err": 3.611483825960871e-06,
-            "mean_j": 0.0002489713279971747,
-            "mean_j_err": 6.845913365655956e-06,
-            "mean_j_mswd": 8.322783870695373,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 30,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100828-01A",
-                    "uuid": "325f665c-34de-4770-81b3-fa29a50005b8"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100828-02A",
-                    "uuid": "6e135f37-b03c-4bb2-95e6-414d58e805cc"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100828",
-            "j": 0.00025034977303517485,
-            "j_err": 1.7940296189302503e-06,
-            "mean_j": 0.0002515994267186482,
-            "mean_j_err": 2.1695621205337562e-07,
-            "mean_j_mswd": 0.028394986850838157,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 32,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100829-01A",
-                    "uuid": "a40af2e4-43b1-4edd-b3ad-b937e1a32ab4"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100829-02A",
-                    "uuid": "ae89efdc-de95-4ef8-a926-7f736c8cf3c5"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100829",
-            "j": 0.0002501370181607546,
-            "j_err": 1.1345739325846319e-06,
-            "mean_j": 0.0002509918073518856,
-            "mean_j_err": 4.2006645343264053e-07,
-            "mean_j_mswd": 0.8973274495607333,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 33,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100830-01A",
-                    "uuid": "7af60da0-baa9-414b-83f0-cbbe877a1f35"
-                },
-                {
-                    "is_omitted": true,
-                    "record_id": "100830-02A",
-                    "uuid": "c8d7c9ac-4e3f-43b3-bc89-677f6625cdbb"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100830",
-            "j": 0.00024992426328633425,
-            "j_err": 1.2406381178890908e-06,
-            "mean_j": 0.0002498387455397821,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 34,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100831-01A",
-                    "uuid": "4a68b223-2719-4e2f-83fc-e8c62b81f28a"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100831-02A",
-                    "uuid": "9fed6ce0-abe8-4442-8400-c69f06881a24"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100831",
-            "j": 0.0002506107231459301,
-            "j_err": 3.17938624662529e-06,
-            "mean_j": 0.00025129823586924623,
-            "mean_j_err": 3.9832588454841015e-07,
-            "mean_j_mswd": 0.07139658101006129,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 35,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100832-02A",
-                    "uuid": "34569649-e87a-4f45-a16f-a4ab542c5868"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100832",
-            "j": 0.0002503979682715098,
-            "j_err": 2.3415652000453566e-06,
-            "mean_j": 0.0002524084572769181,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 36,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": true,
-                    "record_id": "100833-01A",
-                    "uuid": "5940e7ac-8263-4e47-ac1d-d5ca4438efb3"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100833-02A",
-                    "uuid": "23bb573f-94cc-47ea-a582-801ad864b555"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100833",
-            "j": 0.00025018521339708954,
-            "j_err": 1.9204910266582385e-06,
-            "mean_j": 0.0002500896966985533,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 37,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100806",
-            "j": 0.0002506306970750105,
-            "j_err": 3.676918798454231e-06,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 10,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100808",
-            "j": 0.0002502051873261699,
-            "j_err": 2.0903833942244566e-06,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 12,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100810",
-            "j": 0.0002497796775773293,
-            "j_err": 1.7005317173280076e-06,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 14,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100814",
-            "j": 0.00025046613743692515,
-            "j_err": 2.4181911459411806e-06,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 18,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100816",
-            "j": 0.0002500406276880846,
-            "j_err": 5.771608817985122e-07,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 20,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100820",
-            "j": 0.00025072708754768044,
-            "j_err": 3.266111706557668e-06,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 24,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100822",
-            "j": 0.00025030157779883983,
-            "j_err": 1.3323149996709763e-06,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 26,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100824",
-            "j": 0.00024987606804999923,
-            "j_err": 1.0246153052230865e-06,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 28,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100827",
-            "j": 0.0002505625279095951,
-            "j_err": 2.7027567224455666e-06,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 31,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
-            "analyses": [
-                {
-                    "is_omitted": false,
-                    "record_id": "100834-01A",
-                    "uuid": "8fa1e1d0-c50a-45a4-aec1-8ce698e5eb87"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100834-02A",
-                    "uuid": "e4b62194-c55e-4721-b2d9-ffaf642c8642"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100834-03",
-                    "uuid": "67a422f7-7d5e-4799-911d-32d2350c935f"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100834-04",
-                    "uuid": "acce3d9f-8ba0-499e-a1b0-ba3fabd78e77"
-                },
-                {
-                    "is_omitted": false,
-                    "record_id": "100834-05",
-                    "uuid": "bcab8b43-9817-4b15-a256-2fa14ec8880f"
-                }
-            ],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "analyses": [],
+            "decay_constants": {},
             "identifier": "100834",
-            "j": 0.00024989604197907966,
-            "j_err": 2.9151115709933415e-06,
-            "mean_j": 0.0002515922667751243,
-            "mean_j_err": 5.849167311969693e-07,
-            "mean_j_mswd": 0.35740877137101407,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 3,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100899",
-            "j": 0.00025036974696425517,
-            "j_err": 3.5721573391922424e-06,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 5,
-            "position_jerr": 0.0
+            "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {
-                "lambda_k_total": 5.464e-10,
-                "lambda_k_total_error": 0.0
-            },
+            "decay_constants": {},
             "identifier": "100900",
-            "j": 0.0002499442372154146,
-            "j_err": 2.061881883932254e-06,
-            "mean_j": 0.0,
-            "mean_j_err": 0.0,
-            "mean_j_mswd": 0.0,
-            "options": {
-                "model_kind": "Plane",
-                "monitor_age": 1.1848,
-                "monitor_material": "",
-                "monitor_name": "",
-                "monitor_reference": "Min and Niespolo AC",
-                "monte_carlo_ntrials": 10,
-                "predicted_j_error_type": "SEM, but if MSWD>1 use SEM * sqrt(MSWD)",
-                "use_monte_carlo": true,
-                "use_weighted_fit": false
-            },
+            "j": 0.000251,
+            "j_err": 1e-06,
+            "mean_j": 0,
+            "mean_j_err": 0,
+            "mean_j_mswd": 0,
+            "options": {},
             "position": 7,
-            "position_jerr": 0.0
+            "position_jerr": null
         }
     ],
     "z": 0.0
