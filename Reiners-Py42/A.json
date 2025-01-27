@@ -2,79 +2,121 @@
     "positions": [
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 0
+            },
             "identifier": "101397",
             "j": 0.00540829,
             "j_err": 4.28267e-05,
             "mean_j": 0,
             "mean_j_err": 0,
             "mean_j_mswd": 0,
-            "options": {},
+            "options": {
+                "monitor_age": 28.201,
+                "monitor_material": "Sanidine",
+                "monitor_name": "FC-2"
+            },
             "position": 1,
             "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 0
+            },
             "identifier": "101398",
             "j": 0.00540829,
             "j_err": 4.28267e-05,
             "mean_j": 0,
             "mean_j_err": 0,
             "mean_j_mswd": 0,
-            "options": {},
+            "options": {
+                "monitor_age": 28.201,
+                "monitor_material": "Sanidine",
+                "monitor_name": "FC-2"
+            },
             "position": 2,
             "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 0
+            },
             "identifier": "101399",
             "j": 0.00540829,
             "j_err": 4.28267e-05,
             "mean_j": 0,
             "mean_j_err": 0,
             "mean_j_mswd": 0,
-            "options": {},
+            "options": {
+                "monitor_age": 28.201,
+                "monitor_material": "Sanidine",
+                "monitor_name": "FC-2"
+            },
             "position": 3,
             "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 0
+            },
             "identifier": "101400",
             "j": 0.00540829,
             "j_err": 4.28267e-05,
             "mean_j": 0,
             "mean_j_err": 0,
             "mean_j_mswd": 0,
-            "options": {},
+            "options": {
+                "monitor_age": 28.201,
+                "monitor_material": "Sanidine",
+                "monitor_name": "FC-2"
+            },
             "position": 4,
             "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 0
+            },
             "identifier": "101401",
             "j": 0.00540829,
             "j_err": 4.28267e-05,
             "mean_j": 0,
             "mean_j_err": 0,
             "mean_j_mswd": 0,
-            "options": {},
+            "options": {
+                "monitor_age": 28.201,
+                "monitor_material": "Sanidine",
+                "monitor_name": "FC-2"
+            },
             "position": 5,
             "position_jerr": null
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 0
+            },
             "identifier": "101402",
             "j": 0.00540829,
             "j_err": 4.28267e-05,
             "mean_j": 0,
             "mean_j_err": 0,
             "mean_j_mswd": 0,
-            "options": {},
+            "options": {
+                "monitor_age": 28.201,
+                "monitor_material": "Sanidine",
+                "monitor_name": "FC-2"
+            },
             "position": 6,
             "position_jerr": null
         }
