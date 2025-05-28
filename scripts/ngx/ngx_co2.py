@@ -47,12 +47,13 @@ def main():
                     execute_pattern(pattern)
 
             complete_interval()
-            sleep(0.5)
-            move_to_position(1)
-            move_to_position(69)
 
     if not analysis_type=='blank':
         disable()
+        sleep(0.5)
+        move_to_position(1)
+        move_to_position(69)
+
     sleep(cleanup)
     if cryofocus:
         open('C')
