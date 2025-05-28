@@ -45,7 +45,8 @@ def main():
                 if pattern:
                     info('executing pattern {}'.format(pattern))
                     execute_pattern(pattern)
-
+            move_to_position(1)
+            move_to_position(69)
             complete_interval()
 
     if not analysis_type=='blank':
