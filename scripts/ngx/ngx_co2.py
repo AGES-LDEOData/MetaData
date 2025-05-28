@@ -45,9 +45,11 @@ def main():
                 if pattern:
                     info('executing pattern {}'.format(pattern))
                     execute_pattern(pattern)
+
+            complete_interval()
+            sleep(0.5)
             move_to_position(1)
             move_to_position(69)
-            complete_interval()
 
     if not analysis_type=='blank':
         disable()
