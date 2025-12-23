@@ -51,8 +51,8 @@ def main():
     if not analysis_type=='blank':
         disable()
         sleep(0.5)
-        move_to_position(1)
-        move_to_position(69)
+        move_to_position(7)
+        move_to_position(8)
 
     sleep(cleanup)
     if cryofocus:
