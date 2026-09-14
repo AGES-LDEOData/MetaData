@@ -52,7 +52,7 @@ def main():
         disable()
         sleep(0.5)
         move_to_position(1)
-        move_to_position(69)
+        move_to_position(11)
 
     sleep(cleanup)
     if cryofocus:
