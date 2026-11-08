@@ -36,7 +36,6 @@ peakhop:
 
 
 ACTIVE_DETECTORS=('H4','H2','AX','L2','L4')
-#ACTIVE_DETECTORS = ('AX',)
 
 def main():
     #this is a comment
@@ -57,6 +56,8 @@ def main():
     #set the cdd operating voltage
     # set_cdd_operating_voltage(100)
 
+    #open a plot panel for this detectors
+    activate_detectors(*ACTIVE_DETECTORS)
 
     if mx.baseline.before:
         baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
@@ -78,17 +79,14 @@ def main():
     equilibrate(eqtime=e*1.1, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet,
                 delay=mx.equilibration.inlet_delay)
 
-    if mx.peakcenter.before:
-        activate_detectors(*ACTIVE_DETECTORS, peak_center=True)
-        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope, integration_time=1, config_name=mx.peakcenter.config_name)
-
-    #open a plot panel for this detectors
-    activate_detectors(*ACTIVE_DETECTORS)
-
     #equilibrate returns immediately after the inlet opens
     set_time_zero()
 
     sniff(e)
+
+    if mx.peakcenter.before:
+        activate_detectors(*ACTIVE_DETECTORS, peak_center=True)
+        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope, integration_time=1, config_name=mx.peakcenter.config_name)
 
     hops = load_hops(mx.peakhop.hops_name)
     define_hops(hops)
